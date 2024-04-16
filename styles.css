@@ -22,7 +22,6 @@ body {
   font-family: "Segoe UI", Arial;
   /* background: rgb(80, 80, 80); */
   height: 100%;
-  margin: 0 auto;
 }
 
 /* header *{
@@ -56,13 +55,18 @@ header {
   padding: 0 10px;
 }
 
-.logo-container {
+/* .logo-container {
   display: flex;
   align-items: center;
-}
+} */
 
 .brand-logo {
-  width: 200px;
+  width: 40%;
+  height: auto;
+  opacity: 0.8;
+
+  /* margin: auto;
+  display: block; */
 }
 
 /* MAIN */
@@ -73,19 +77,18 @@ header {
  */
 
 main {
-  margin: auto;
-  padding: 20px 10px 0 10px;
-  text-align: center;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-container {
-  /*   padding: 20px; */
+/* .container {
 
   display: flex;
   align-self: center;
-  text-align: center;
-}
+  align-items: center;
+  margin: auto;
+} */
 
 footer {
   /*   background-image: linear-gradient(to bottom, rgba(170, 100, 140, 0.3), rgba(110, 68, 127, 0.3)); */
