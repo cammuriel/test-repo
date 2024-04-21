@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*  border: 0.1px solid red; */
+  /* border: 0.1px solid red; */
 }
 
 html {
@@ -15,7 +15,7 @@ html {
   background-image: url(images/cammpixels_gradient.png);
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -59,7 +59,7 @@ main {
   justify-content: center;
   align-items: center;
   /* padding: 5px; */
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 
 .brand-logo {
