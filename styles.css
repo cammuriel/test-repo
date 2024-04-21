@@ -21,65 +21,55 @@ html {
 body {
   font-family: "Segoe UI", Arial;
   /* background: rgb(80, 80, 80); */
-  height: 100%;
-}
-
-/* header *{
-    border: 0.1px solid red;
-} */
-
-header {
-  /* background-image: linear-gradient(
-    to top,
-    rgb(170, 100, 140),
-    rgb(110, 68, 127)
-  ); */
-  position: fixed;
+  height: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  top: 0;
-  white-space: nowrap;
-  padding: 10px 0;
-  border-radius: 0 0 40px 40px;
-  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
 }
 
-.header-brand-name {
-  display: inline-block;
-  font-size: 0.8rem;
-  line-height: 1.5;
-  letter-spacing: 5px;
+main {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-name {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 6px;
   color: rgb(30, 30, 30);
   padding: 0 10px;
 }
 
-/* .logo-container {
+.brand-tag {
   display: flex;
+  font-size: 0.6rem;
+  line-height: 2;
+  letter-spacing: 6px;
+  color: rgb(30, 30, 30);
+  padding: 0 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-} */
+  /* padding: 5px; */
+  padding-bottom: 10px;
+}
 
 .brand-logo {
   width: 40%;
+  max-width: 1000px;
   height: auto;
   opacity: 0.8;
 
   /* margin: auto;
   display: block; */
-}
-
-/* MAIN */
-
-/* #pricing *{
-  border: 0.1px solid red;
-}
- */
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* .container {
@@ -89,38 +79,3 @@ main {
   align-items: center;
   margin: auto;
 } */
-
-footer {
-  /*   background-image: linear-gradient(to bottom, rgba(170, 100, 140, 0.3), rgba(110, 68, 127, 0.3)); */
-  /* background-color: rgb(233, 206, 210); */
-  font-size: 0.7rem;
-  line-height: 1.5;
-  letter-spacing: 5px;
-  color: rgb(82, 82, 82);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  padding: 10px;
-  margin-bottom: 0px;
-
-  text-align: center;
-  border-radius: 40px 40px 0 0;
-  box-shadow: -1px -1px 20px rgb(0, 0, 0, 0.1);
-}
-
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-  font-size: 0.4rem;
-  width: 220px;
-  margin: 0 auto;
-  margin-top: 3px;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: rgb(60, 60, 60);
-}
